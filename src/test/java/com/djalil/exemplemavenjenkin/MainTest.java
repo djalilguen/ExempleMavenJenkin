@@ -51,5 +51,13 @@ public class MainTest {
         int result = Main.produit(a, b);
         assertEquals(expResult, result);
     }
-    
+     @Test
+    public void testProduit2() {
+       System.out.println("produit");
+        int a = 0;
+        int b = 0;
+        int expResult = 0;
+        int result = Main.produit(a, b);
+        assertEquals(expResult, result);
+    }
 }
